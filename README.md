@@ -25,7 +25,7 @@ We welcome contributions from developers of all skill levels. Whether you're fix
 
 ### 🐛 Issues
 
-If you find a bug, have a suggestion, or would like to request a new feature, please check our issue tracker to see if it has already been reported. If not, feel free to open a new issue. When creating an issue, please include:
+If you find a bug, have a suggestion, or would like to request a new feature, please check our [issue tracker](https://github.com/ossrndc/Hacktoberfest/issues) to see if it has already been reported. If not, feel free to open a new issue. When creating an issue, please include:
 
 - A clear and descriptive title.
 - A detailed description of the problem or feature request.
@@ -46,10 +46,14 @@ If you want to contribute code, follow these steps:
 
 ## Code of Conduct 📜
 
-Please note that this project has a Code of Conduct. We expect all contributors to adhere to it. By participating, you are expected to uphold this code and treat all contributors with respect.
+Please note that this project has a [Code of Conduct](CODE_OF_CONDUCT.md). We expect all contributors to adhere to it. By participating, you are expected to uphold this code and treat all contributors with respect.
 
 ## License 📄
 
-This project is licensed under the MIT License. By contributing, you agree to license your contributions under the same terms.
+This project is licensed under the [MIT License](LICENSE). By contributing, you agree to license your contributions under the same terms.
+
+## Contact Information 📧
+
+If you have any questions or need further assistance, feel free to contact us via email at [ossrndcentre@gmail.com](mailto:ossrndcentre@gmail.com) or any of our maintainers.
 
 Thank you for contributing to Hacktoberfest with Team OSS. Happy hacking! 🎉
