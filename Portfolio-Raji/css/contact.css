@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alkalami&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:858px) {
+    body {
+        background-image: url("https://img.freepik.com/premium-vector/futuristic-abstract-vector-background-blockchain-technology-peer-peer-network-business-concept-gl_230610-927.jpg?w=2000");
+        max-height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width:858px) {
+    body {
+        background-image: linear-gradient(gray, white);
+        max-height: 100vh;
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+    }
+}
+nav {
+    /* background-color: white; */
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 8px;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,
+.in:hover {
+    background: rgb(174, 169, 169);
+    transition: 0.5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(115, 112, 112);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a:hover,
+    a.active {
+        background: none;
+        color: white;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+}
+main {
+    display: inline-block;
+    width: 100vw;
+    height: 90vh;
+}
+.content1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+
+}
+.content1 img{
+    height:45px;
+    border:1px solid transparent;
+    border-radius:60%;
+
+}
+.head1{
+    width:30vw;
+    color:black;
+    font-size: 40px;
+    font-weight:bold;
+    font-family:'Abyssinica', serif;
+
+}
+.head2 img{
+    height:90px;
+}
+.fas{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.icon{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: rgb(11, 11, 68);
+    margin-top:12px;
+    padding:0px 25px 0px 25px;
+}
+.icon i{
+    margin:10px;
+    /* height: 20vh; */
+}
+.icon:hover{
+    cursor:pointer;
+    transform:scaleX(-1);
+    color:rgb(104, 102, 102);
+    transition-duration: .5s;
+}
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.icon
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+.form-control input,
+.form-control select,
+#comment {
+    border: 2px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+button {
+    background-color: gray;
+    border: 1px solid #777;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: rgb(23, 66, 66);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    transform: translate(-5px);
+}
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 12vh;
+    color: black;
+    font-family: "Lato", sans-serif;
+}
